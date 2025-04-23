@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile Viewer | By Ebrima Mbye</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>User Profile Viewer</h1>
+      <p class="subtitle">Click on a user to view their detailed profile</p>
+      <div class="author">Developed by Ebrima Mbye</div>
+    </header>
+
+    <div class="container" id="main-container">
+      <div class="card user-list" id="user-list-card">
+        <div class="card-header">
+          <h2>User List</h2>
+        </div>
+        <div class="card-content" id="users-container">
+          <div class="loading">
+            <div class="spinner"></div>
+          </div>
+        </div>
+        <div class="watermark">Ebrima Mbye</div>
+      </div>
+
+      <div class="card profile-detail" id="profile-detail">
+        <div class="card-header">
+          <button class="back-button" id="back-button">
+            <div class="arrow-back"></div>
+          </button>
+          <h2>User Profile</h2>
+        </div>
+        <div class="card-content">
+          <div class="placeholder-content">
+            <div style="font-size: 5rem; margin-bottom: 1rem">👤</div>
+            <h3>Select a user to view their profile</h3>
+            <p>
+              Click on any user from the list to see their detailed information
+            </p>
+          </div>
+        </div>
+        <div class="watermark">Ebrima Mbye</div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        © 2025 <span class="signature">Ebrima Mbye</span> | User Profile Viewer
+      </p>
+    </footer>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
